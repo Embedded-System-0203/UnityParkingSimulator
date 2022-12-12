@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
-        gameObject.transform.position = Vector3.Lerp(transform.position, cameraPos.transform.position, Time.deltaTime * speed);
+        //gameObject.transform.position = Vector3.Lerp(transform.position, cameraPos.transform.position, Time.deltaTime * speed);
 
         gameObject.transform.LookAt(cameraView.transform);
     }

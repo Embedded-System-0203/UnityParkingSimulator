@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     public float downForceValue;
     public float radius = 6f;
 
+    public bool isLeft = false;
+    public bool isRight = false;
+    public bool isBack = false;
+
 
     GameObject[] sensorMesh = new GameObject[3];
     GameObject[] wheelMesh = new GameObject[4];
