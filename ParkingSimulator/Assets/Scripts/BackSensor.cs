@@ -13,14 +13,14 @@ public class BackSensor : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Line")
+        if (other.tag == "Line" || other.tag == "Car")
             player.isBack = true;
         //Debug.Log("Back Line");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Line")
+        if (other.tag == "Line" || other.tag == "Car")
             player.isBack = false;
         //Debug.Log("Left Exit");
     }

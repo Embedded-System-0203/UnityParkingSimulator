@@ -13,14 +13,14 @@ public class LeftSensor : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Line")
+        if (other.tag == "Car")
             player.isLeft = true;
             //Debug.Log("Left Line");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Line")
+        if (other.tag == "Car")
             player.isLeft = false;
         //Debug.Log("Left Exit");
     }

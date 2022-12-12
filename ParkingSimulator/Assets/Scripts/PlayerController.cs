@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public bool isLeft = false;
     public bool isRight = false;
     public bool isBack = false;
+    public bool isCrash = false;
 
 
     GameObject[] sensorMesh = new GameObject[3];
@@ -107,9 +108,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        //if (other.tag == "Line")
-            //Debug.Log("Line");
+        if(collision.transform.tag == "Car" || collision.transform.tag == "Wall")
+        {
+            isCrash = true;
+        }
     }
 }

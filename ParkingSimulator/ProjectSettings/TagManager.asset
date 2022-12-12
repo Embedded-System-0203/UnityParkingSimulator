@@ -7,6 +7,8 @@ TagManager:
   - WheelMesh
   - Line
   - SensorMesh
+  - Wall
+  - Car
   layers:
   - Default
   - TransparentFX
