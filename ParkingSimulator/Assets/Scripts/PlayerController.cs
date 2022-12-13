@@ -7,16 +7,21 @@ public class PlayerController : MonoBehaviour
     public WheelCollider[] wheels = new WheelCollider[4];
     public GameObject[] sensors = new GameObject[3];
 
-    public float power = 100f;
+    public float power = 20f;
     public float rot = 45f;
     public float downForceValue;
     public float radius = 6f;
+    public float direction; //가속도 센서 roll 값 받을 변수
 
     public bool isLeft = false;
     public bool isRight = false;
     public bool isBack = false;
     public bool isCrash = false;
 
+    public bool isAccel = false;    //엑셀
+    public bool isBrake = false;    //브레이크
+
+    public char[] gear; //기어
 
     GameObject[] sensorMesh = new GameObject[3];
     GameObject[] wheelMesh = new GameObject[4];
@@ -38,22 +43,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         WheelPosAndRot();
         SensorPosAndRot();
         Move();
         AddDownForce();
-        //testInput();
-    }
-
-    void testInput()
-    {
-        if (Input.GetAxis("Vertical") != 0)
-        {
-            Debug.Log(Input.GetAxis("Vertical"));
-        }
+        Brake();
     }
 
     void AddDownForce() //자동차 흔들거림 방지를 위해
@@ -63,19 +59,9 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        //if(Input.GetAxis("Horizontal") > 0)     //
-        //{
-        //    wheels[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (radius + (1.5f / 2))) * Input.GetAxis("Horizontal"); //Input.GetAxis("Horizontal")을 다른 값으로 변경
-        //    wheels[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (radius - (1.5f / 2))) * Input.GetAxis("Horizontal");
-        //}
-        //else if(Input.GetAxis("Horizontal") < 0)    //
-        //{
-        //    wheels[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (radius - (1.5f / 2))) * Input.GetAxis("Horizontal");
-        //    wheels[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (radius + (1.5f / 2))) * Input.GetAxis("Horizontal");
-        //}
+        string temp = new string(gear);
 
-
-        for (int i = 0; i < wheels.Length; i++) // if(기어==D && 엑셀 눌림)
+        for (int i = 0; i < wheels.Length; i++)
         {
             wheels[i].motorTorque = Input.GetAxis("Vertical") * power;
         }
@@ -83,6 +69,24 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i < 2; i++)
         {
             wheels[i].steerAngle = Input.GetAxis("Horizontal") * rot;
+        }
+    }
+
+    void Brake()
+    {
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            for(int i = 0; i < wheels.Length; i++)
+            {
+                wheels[i].brakeTorque = 100;
+            }
+        }
+        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            for (int i = 0; i < wheels.Length; i++)
+            {
+                wheels[i].brakeTorque = 0;
+            }
         }
     }
 

@@ -11,17 +11,15 @@ public class RightSensor : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Car")
             player.isRight = true;
-        //Debug.Log("Right Line");
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Car")
             player.isRight = false;
-        //Debug.Log("Left Exit");
     }
 }

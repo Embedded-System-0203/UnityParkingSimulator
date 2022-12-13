@@ -11,17 +11,15 @@ public class LeftSensor : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Car")
             player.isLeft = true;
-            //Debug.Log("Left Line");
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Car")
             player.isLeft = false;
-        //Debug.Log("Left Exit");
     }
 }

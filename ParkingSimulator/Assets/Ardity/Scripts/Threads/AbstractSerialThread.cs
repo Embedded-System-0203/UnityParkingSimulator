@@ -110,7 +110,6 @@ public abstract class AbstractSerialThread
     // ------------------------------------------------------------------------
     public void SendMessage(object message)
     {
-        Debug.Log("enqueue " + message);
         outputQueue.Enqueue(message);
     }
 
@@ -246,7 +245,7 @@ public abstract class AbstractSerialThread
             // Send a message.
             if (outputQueue.Count != 0)
             {
-                SendToWire(outputQueue.Dequeue(), serialPort);
+                serialPort.Write((string)outputQueue.Dequeue());
             }
 
             // Read a message.
@@ -260,10 +259,8 @@ public abstract class AbstractSerialThread
                 for (int i = 0; i < nbyte; i++)
                 {
                     text += (char)serialPort.ReadByte();        //Byte수만큼 Byte를 하나씩 읽어옴.
-                }  
+                }
             }
-            Debug.Log("Text : " + text);                        //Text 내용 확인.
-     
             if (text == "")
                 Debug.Log("inputMessage : null");
             if (text != "")

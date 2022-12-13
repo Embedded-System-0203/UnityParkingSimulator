@@ -11,17 +11,15 @@ public class BackSensor : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Line" || other.tag == "Car")
             player.isBack = true;
-        //Debug.Log("Back Line");
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Line" || other.tag == "Car")
             player.isBack = false;
-        //Debug.Log("Left Exit");
     }
 }
