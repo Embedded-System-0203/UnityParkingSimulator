@@ -369,6 +369,7 @@
 "Assets/Ardity/Scripts/Threads/SerialThreadLines.cs"
 "Assets/Scripts/BackSensor.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/GearUI.cs"
 "Assets/Scripts/LeftSensor.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/RightSensor.cs"

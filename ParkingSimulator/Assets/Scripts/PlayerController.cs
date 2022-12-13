@@ -21,11 +21,16 @@ public class PlayerController : MonoBehaviour
     public bool isAccel = false;    //엑셀
     public bool isBrake = false;    //브레이크
 
+    public bool isEnd = false;
+
     public char[] gear; //기어
 
     GameObject[] sensorMesh = new GameObject[3];
     GameObject[] wheelMesh = new GameObject[4];
     Rigidbody rigid;
+
+    public float accelNum;
+    public float dirNum;
 
 
     void Start()
@@ -48,8 +53,10 @@ public class PlayerController : MonoBehaviour
         WheelPosAndRot();
         SensorPosAndRot();
         Move();
+        Rotate();
         AddDownForce();
         Brake();
+        GameEnd();
     }
 
     void AddDownForce() //자동차 흔들거림 방지를 위해
@@ -61,33 +68,100 @@ public class PlayerController : MonoBehaviour
     {
         string temp = new string(gear);
 
-        for (int i = 0; i < wheels.Length; i++)
-        {
-            wheels[i].motorTorque = Input.GetAxis("Vertical") * power;
-        }
+        //전진 후진
+        if (temp != "P" && isAccel)  //기어가 P가 아니고, 엑셀을 누르고 있는 상태면
+            if (temp == "D") //기어가 D라면
+            {
+                accelNum += 0.05f;
+                if (accelNum >= 1)
+                    accelNum = 1.0f;
+                for (int i = 0; i < wheels.Length; i++)
+                {
+                    wheels[i].motorTorque = accelNum * power;
+                }
+            }
+            else if(temp == "R")
+            {
+                accelNum -= 0.05f;
+                if (accelNum <= -1)
+                    accelNum = -1.0f;
+                for (int i = 0; i < wheels.Length; i++)
+                {
+                    wheels[i].motorTorque = accelNum * power;
+                }
+            }
 
-        for(int i = 0; i < 2; i++)
+        //앞바퀴 좌 우
+        //for(int i = 0; i < 2; i++)
+        //{
+        //    wheels[i].steerAngle = Input.GetAxis("Horizontal") * rot;
+        //}
+    }
+
+    void Rotate()
+    {
+        if (direction <= -5.0f)  //왼쪽
         {
-            wheels[i].steerAngle = Input.GetAxis("Horizontal") * rot;
+            dirNum -= 0.05f;
+            if (dirNum <= -1.0f)
+                dirNum = -1.0f;
+            for (int i = 0; i < 2; i++)
+            {
+                wheels[i].steerAngle = dirNum * rot;
+            }
+        }
+        else if (direction >= 5.0f)
+        {
+            dirNum += 0.05f;
+            if (dirNum >= 1.0f)
+                dirNum = 1.0f;
+            for (int i = 0; i < 2; i++)
+            {
+                wheels[i].steerAngle = dirNum * rot;
+            }
+        }
+        else if (direction >= -5.0f && direction <= 5.0f)
+        {
+            dirNum = 0.0f;
+            for (int i = 0; i < 2; i++)
+            {
+                wheels[i].steerAngle = dirNum * rot;
+            }
         }
     }
 
     void Brake()
     {
-        if(Input.GetKeyDown(KeyCode.LeftShift))
+        if(isBrake)
         {
-            for(int i = 0; i < wheels.Length; i++)
+            accelNum = 0.0f;
+            for (int i = 0; i < wheels.Length; i++)
             {
                 wheels[i].brakeTorque = 100;
             }
         }
-        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        else if(!isBrake)
         {
             for (int i = 0; i < wheels.Length; i++)
             {
                 wheels[i].brakeTorque = 0;
             }
         }
+
+        //if(Input.GetKeyDown(KeyCode.LeftShift))
+        //{
+        //    for(int i = 0; i < wheels.Length; i++)
+        //    {
+        //        wheels[i].brakeTorque = 100;
+        //    }
+        //}
+        //else if(Input.GetKeyUp(KeyCode.LeftShift))
+        //{
+        //    for (int i = 0; i < wheels.Length; i++)
+        //    {
+        //        wheels[i].brakeTorque = 0;
+        //    }
+        //}
     }
 
     void WheelPosAndRot()
@@ -117,6 +191,32 @@ public class PlayerController : MonoBehaviour
         if(collision.transform.tag == "Car" || collision.transform.tag == "Wall")
         {
             isCrash = true;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "ParkingEndLine")
+        {
+            isEnd = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "ParkingEndLine")
+        {
+            isEnd = false;
+        }
+    }
+
+    void GameEnd()
+    {
+        string temp = new string(gear);
+
+        if (isEnd && temp == "P")
+        {
+            Debug.Log("Game End");
         }
     }
 }

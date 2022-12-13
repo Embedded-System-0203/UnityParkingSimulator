@@ -15,7 +15,7 @@ C:/Users/whdgu/Documents/GitHub/UnityParkingSimulator/ParkingSimulator
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-2612
+2841
 Successfully changed project path to: C:/Users/whdgu/Documents/GitHub/UnityParkingSimulator/ParkingSimulator
 C:/Users/whdgu/Documents/GitHub/UnityParkingSimulator/ParkingSimulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/whdgu/Documents/GitHub/UnityParkingSimulator/ParkingSimulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 262.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 126.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019697 seconds.
+Registered in 0.011161 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 252.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
+- Completed reload, in  0.917 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1791ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1246ms)
-			LoadAssemblies (238ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (785ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (400ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (173ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (252ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
+				InitializePlatformSupportModulesInManaged (86ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021418 seconds.
+Registered in 0.011021 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.604 seconds
+- Completed reload, in  2.893 seconds
 Domain Reload Profiling:
-	ReloadAssembly (10605ms)
-		BeginReloadAssembly (8239ms)
+	ReloadAssembly (2894ms)
+		BeginReloadAssembly (1648ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (7956ms)
-		EndReloadAssembly (2105ms)
-			LoadAssemblies (272ms)
+			CreateAndSetChildDomain (1494ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (690ms)
+			SetupTypeCache (344ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (981ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (525ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (78ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (244ms)
-				ProcessInitializeOnLoadAttributes (580ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3871.
 Memory consumption went from 126.7 MB to 126.6 MB.
-Total: 3.550700 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.171800 ms MarkObjects: 2.793900 ms  DeleteObjects: 0.135200 ms)
+Total: 3.784100 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.158300 ms MarkObjects: 3.114400 ms  DeleteObjects: 0.141600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,1336 +166,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019283 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.585 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2586ms)
-		BeginReloadAssembly (358ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1973ms)
-			LoadAssemblies (261ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (651ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (886ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (96ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (522ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3874.
-Memory consumption went from 125.3 MB to 125.2 MB.
-Total: 6.249900 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.176900 ms MarkObjects: 5.436200 ms  DeleteObjects: 0.171000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 158892.511284 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_A_texture.png
+  artifactKey: Guid(72b5cb87b430dfc44926b0478c2d4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_A_texture.png using Guid(72b5cb87b430dfc44926b0478c2d4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec34968caf13419c431d9438e8bff8ce') in 0.183026 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022198 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2548ms)
-		BeginReloadAssembly (339ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1940ms)
-			LoadAssemblies (266ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (656ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (858ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (91ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (503ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3877.
-Memory consumption went from 125.3 MB to 125.3 MB.
-Total: 5.961600 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.539400 ms MarkObjects: 4.854000 ms  DeleteObjects: 0.157100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_C_texture.png
+  artifactKey: Guid(c6e35c2db1747094ebff43d3d5dd823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_C_texture.png using Guid(c6e35c2db1747094ebff43d3d5dd823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b519dff050398f8d4590610bbf43012d') in 0.026318 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022814 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.279 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3281ms)
-		BeginReloadAssembly (385ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (108ms)
-		EndReloadAssembly (2516ms)
-			LoadAssemblies (420ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1004ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (852ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (514ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (62ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3880.
-Memory consumption went from 125.3 MB to 125.3 MB.
-Total: 7.456300 ms (FindLiveObjects: 0.843600 ms CreateObjectMapping: 0.367900 ms MarkObjects: 6.033900 ms  DeleteObjects: 0.208800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures
+  artifactKey: Guid(c7a7549c349412740b70056f5a09907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures using Guid(c7a7549c349412740b70056f5a09907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b003235a5c42209629e194a87b6b4e2a') in 0.009391 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019226 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.527 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2529ms)
-		BeginReloadAssembly (343ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1925ms)
-			LoadAssemblies (257ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (634ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (863ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (85ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (182ms)
-				ProcessInitializeOnLoadAttributes (518ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3883.
-Memory consumption went from 125.3 MB to 125.3 MB.
-Total: 6.883500 ms (FindLiveObjects: 0.586900 ms CreateObjectMapping: 0.269000 ms MarkObjects: 5.856100 ms  DeleteObjects: 0.169000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX
+  artifactKey: Guid(0463680659907aa42ac15f09e966dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX using Guid(0463680659907aa42ac15f09e966dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf074875d30f0f12c93376ed04df6cc') in 0.009140 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025612 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.498 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2499ms)
-		BeginReloadAssembly (332ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1909ms)
-			LoadAssemblies (275ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (650ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (822ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3886.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 6.744700 ms (FindLiveObjects: 0.562500 ms CreateObjectMapping: 0.344800 ms MarkObjects: 5.667000 ms  DeleteObjects: 0.168000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_B_Texture.png
+  artifactKey: Guid(2d0557711b6926441b57384036df45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_B_Texture.png using Guid(2d0557711b6926441b57384036df45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf8c3e24ddc6d54f07774a80309919d') in 0.026395 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020917 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.555 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2557ms)
-		BeginReloadAssembly (355ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1950ms)
-			LoadAssemblies (285ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (676ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (820ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (86ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3889.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 5.426600 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.194400 ms MarkObjects: 4.663900 ms  DeleteObjects: 0.152600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_pump_texture.png
+  artifactKey: Guid(eb51553d840fc824a9b6b45fefb28750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_pump_texture.png using Guid(eb51553d840fc824a9b6b45fefb28750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac4f60865b0485bda0ee85985767837') in 0.028428 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020160 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2548ms)
-		BeginReloadAssembly (353ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1956ms)
-			LoadAssemblies (275ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (709ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (837ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (501ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3892.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 6.093100 ms (FindLiveObjects: 0.399000 ms CreateObjectMapping: 0.177200 ms MarkObjects: 5.345200 ms  DeleteObjects: 0.169600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/POLYGON city pack/Materials
+  artifactKey: Guid(25a3e4884eb11774bbce8c47423058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Materials using Guid(25a3e4884eb11774bbce8c47423058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28aea44b6b7ca60fbc2dc953981c29f') in 0.008455 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021674 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.438 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2440ms)
-		BeginReloadAssembly (328ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1870ms)
-			LoadAssemblies (271ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (627ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (827ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (84ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (183ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3895.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 7.329100 ms (FindLiveObjects: 0.553600 ms CreateObjectMapping: 0.456300 ms MarkObjects: 6.127800 ms  DeleteObjects: 0.189100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_A.fbx
+  artifactKey: Guid(10a5393e74b9d5b418cf96bdbb0aaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_A.fbx using Guid(10a5393e74b9d5b418cf96bdbb0aaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b09c0562a449ec12558db30aaf811') in 0.245763 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020423 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.411 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2413ms)
-		BeginReloadAssembly (342ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1825ms)
-			LoadAssemblies (251ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (622ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (809ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (89ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3898.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 5.942700 ms (FindLiveObjects: 0.533500 ms CreateObjectMapping: 0.241600 ms MarkObjects: 4.999900 ms  DeleteObjects: 0.164600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/POLYGON city pack/Materials/Day.mat
+  artifactKey: Guid(dfd5fe4561034804291bb92fffe808d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Materials/Day.mat using Guid(dfd5fe4561034804291bb92fffe808d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6901623b31b41cedb4b97afc365e41f0') in 0.050169 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019038 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.544 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2546ms)
-		BeginReloadAssembly (352ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1925ms)
-			LoadAssemblies (280ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (671ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (841ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (174ms)
-				ProcessInitializeOnLoadAttributes (496ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3901.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 5.671500 ms (FindLiveObjects: 0.403800 ms CreateObjectMapping: 0.177800 ms MarkObjects: 4.931100 ms  DeleteObjects: 0.156300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_station_A.fbx
+  artifactKey: Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_station_A.fbx using Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eaf910530654ebf3d10049155e7956') in 0.102097 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022403 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.458 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2459ms)
-		BeginReloadAssembly (372ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (1846ms)
-			LoadAssemblies (272ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (596ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (851ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (517ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3904.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 6.185000 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.310900 ms MarkObjects: 5.233700 ms  DeleteObjects: 0.165300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/POLYGON city pack/Materials/Night.mat
+  artifactKey: Guid(2693a75b9cc71fb4bae0674a2e512e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Materials/Night.mat using Guid(2693a75b9cc71fb4bae0674a2e512e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76121d5d8e7fcd8fd1d7d9b2fa55116b') in 0.027425 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019836 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.548 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2550ms)
-		BeginReloadAssembly (368ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1938ms)
-			LoadAssemblies (275ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (624ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (898ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (93ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (484ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3907.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 6.317500 ms (FindLiveObjects: 0.401900 ms CreateObjectMapping: 0.177900 ms MarkObjects: 5.566000 ms  DeleteObjects: 0.169000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/grid.png
+  artifactKey: Guid(9922cb1c199ed85459518a9fea40e481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/grid.png using Guid(9922cb1c199ed85459518a9fea40e481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057cdf3590eeb3b107e0e17ff530730') in 0.024833 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019312 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.499 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2501ms)
-		BeginReloadAssembly (329ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1919ms)
-			LoadAssemblies (261ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (695ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (814ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (470ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3910.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 6.376300 ms (FindLiveObjects: 0.449200 ms CreateObjectMapping: 0.187100 ms MarkObjects: 5.334600 ms  DeleteObjects: 0.403300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_C.fbx
+  artifactKey: Guid(96aaef09f81d3bd4583753e91476cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_C.fbx using Guid(96aaef09f81d3bd4583753e91476cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1262271c53d3e1405927ffa73964e3b9') in 0.141813 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020931 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.448 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2449ms)
-		BeginReloadAssembly (321ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1866ms)
-			LoadAssemblies (282ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (594ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (831ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (86ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (494ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3913.
-Memory consumption went from 125.4 MB to 125.4 MB.
-Total: 5.661700 ms (FindLiveObjects: 0.410500 ms CreateObjectMapping: 0.177600 ms MarkObjects: 4.913000 ms  DeleteObjects: 0.158200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_B.fbx
+  artifactKey: Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Shop_B.fbx using Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db00e8bb3f940435935bcc524c59a746') in 0.076462 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019045 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.938 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2940ms)
-		BeginReloadAssembly (371ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (2327ms)
-			LoadAssemblies (304ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (923ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (141ms)
-			SetupLoadedEditorAssemblies (896ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (91ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (517ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3916.
-Memory consumption went from 125.4 MB to 125.4 MB.
-Total: 6.060000 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.189700 ms MarkObjects: 5.298000 ms  DeleteObjects: 0.160200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/SUper_maket_texture.png
+  artifactKey: Guid(264d7fe2bc1a35440a81b0410f096baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/SUper_maket_texture.png using Guid(264d7fe2bc1a35440a81b0410f096baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a5f6b0da2e3c7f882f4d15a74fbf63') in 0.026544 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020560 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.479 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2481ms)
-		BeginReloadAssembly (347ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1849ms)
-			LoadAssemblies (282ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (648ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (761ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (438ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3919.
-Memory consumption went from 125.4 MB to 125.4 MB.
-Total: 6.001900 ms (FindLiveObjects: 0.547400 ms CreateObjectMapping: 0.248000 ms MarkObjects: 5.008700 ms  DeleteObjects: 0.195600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022570 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.616 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2617ms)
-		BeginReloadAssembly (394ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1999ms)
-			LoadAssemblies (272ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (636ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (945ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (574ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3922.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 6.224100 ms (FindLiveObjects: 0.616100 ms CreateObjectMapping: 0.304400 ms MarkObjects: 5.146800 ms  DeleteObjects: 0.154700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021351 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2412ms)
-		BeginReloadAssembly (334ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1831ms)
-			LoadAssemblies (254ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (587ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (841ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (89ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (517ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3925.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 6.447800 ms (FindLiveObjects: 0.496000 ms CreateObjectMapping: 0.236000 ms MarkObjects: 5.551700 ms  DeleteObjects: 0.161700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022052 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.386 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2388ms)
-		BeginReloadAssembly (330ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1806ms)
-			LoadAssemblies (272ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (583ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (798ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (74ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3928.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 5.564800 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.176600 ms MarkObjects: 4.795900 ms  DeleteObjects: 0.172400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019719 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.536 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2538ms)
-		BeginReloadAssembly (348ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1922ms)
-			LoadAssemblies (282ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (621ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (878ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (523ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3931.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 6.169900 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.177200 ms MarkObjects: 5.411600 ms  DeleteObjects: 0.175700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020943 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.452 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2454ms)
-		BeginReloadAssembly (341ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1832ms)
-			LoadAssemblies (265ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (623ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (809ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (477ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3934.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 5.496100 ms (FindLiveObjects: 0.466400 ms CreateObjectMapping: 0.243800 ms MarkObjects: 4.635500 ms  DeleteObjects: 0.148000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024199 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.518 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2520ms)
-		BeginReloadAssembly (409ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1851ms)
-			LoadAssemblies (287ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (610ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (809ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (88ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (480ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3937.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 5.431600 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.180800 ms MarkObjects: 4.630700 ms  DeleteObjects: 0.199100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\whdgu\Documents\GitHub\UnityParkingSimulator\ParkingSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.781 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2783ms)
-		BeginReloadAssembly (455ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (2085ms)
-			LoadAssemblies (336ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (611ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (1006ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (100ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (189ms)
-				ProcessInitializeOnLoadAttributes (626ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3940.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 5.727400 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.175500 ms MarkObjects: 4.948400 ms  DeleteObjects: 0.189300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Supermaket.fbx
+  artifactKey: Guid(7a2a20b7d787ff94dbb3d2badebe5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Supermaket.fbx using Guid(7a2a20b7d787ff94dbb3d2badebe5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b50cdfc14a76fce5b13f1f42052d26') in 0.058442 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
