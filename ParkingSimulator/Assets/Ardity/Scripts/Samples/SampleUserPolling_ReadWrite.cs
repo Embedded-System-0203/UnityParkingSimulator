@@ -8,6 +8,10 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
     PlayerController player;
     AbstractSerialThread serialThread;
 
+    bool preLeft = false;
+    bool preRight = false;
+    bool preBack = false;
+
     void Start()
     {
         serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
@@ -17,34 +21,35 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
 
     void Update()
     {
-        //---------------------------------------------------------------------
-        // Send data
-        //---------------------------------------------------------------------
-
-
-
-        player.isAccel = true;
-        player.isBrake = false;
-
-        //---------------------------------------------------------------------
-        // Receive data
-        //---------------------------------------------------------------------
-
         string message = serialController.ReadSerialMessage();
 
         if (message == null)
             return;
 
-        
+        //split을 사용하니 공백이 발생하게 되는데 아래 옵션을 추가해 split으로 인해 발생한 공백을 지워줌. 
+        string[] m_list = message.Split('\n', System.StringSplitOptions.RemoveEmptyEntries);
 
-
-        // Check if the message is plain data or a connect/disconnect event.
-        if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_CONNECTED))
-            Debug.Log("Connection established");
-        else if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_DISCONNECTED))
-            Debug.Log("Connection attempt failed or disconnection detected");
-        else
-            Debug.Log("Message arrived: " + message);
+        foreach (string s in m_list)
+        {
+            if (s == "B")
+            {
+                player.isAccel = false;
+                player.isBrake = true;
+            }
+            else if (s == "G")
+            {
+                player.isAccel = true;
+                player.isBrake = false;
+            }
+            else if (s == "D")
+                player.gear = s.ToCharArray();  //char.Parse(s);
+            else if (s == "R")
+                player.gear = s.ToCharArray();
+            else if (s == "P")
+                player.gear = s.ToCharArray();
+            else
+                player.direction = double.Parse(s);
+        }
 
 
 
@@ -54,41 +59,73 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
     {
         if (player.isLeft)  //자동차 왼쪽에 근접 장애물을 감지한 경우
         {
-            Debug.Log("Sending Enter Left");
-            serialController.SendSerialMessage("1");
+            if(preLeft != player.isLeft)
+            {
+                serialController.SendSerialMessage("1111");
+                preLeft = player.isLeft;
+            }
         }
-        else if(!player.isLeft) //자동차 왼쪽에 근접 장애물이 없는 경우
+        else if (!player.isLeft) //자동차 왼쪽에 근접 장애물이 없는 경우
         {
-            Debug.Log("Sending Exit Left");
-            serialController.SendSerialMessage("2");
+            if (preLeft != player.isLeft)
+            {
+                serialController.SendSerialMessage("22222222");
+                preLeft = player.isLeft;
+            }
         }
 
         if (player.isRight)
         {
-            Debug.Log("Sending Enter Right");
-            serialController.SendSerialMessage("3");
+            if (preRight != player.isRight)
+            {
+                serialController.SendSerialMessage("3333");
+                preRight = player.isRight;
+            }
         }
         else if (!player.isRight)
         {
-            Debug.Log("Sending Exit Right");
-            serialController.SendSerialMessage("4");
+            if (preRight != player.isRight)
+            {
+                serialController.SendSerialMessage("44444444");
+                preRight = player.isRight;
+            }
         }
 
         if (player.isBack)
         {
-            Debug.Log("Sending Enter Back");
-            serialController.SendSerialMessage("5");
+            if (preBack != player.isBack)
+            {
+                serialController.SendSerialMessage("5555");
+                preBack = player.isBack;
+            }
         }
         else if (!player.isBack)
         {
-            Debug.Log("Sending Exit Back");
-            serialController.SendSerialMessage("6");
+            if (preBack != player.isBack)
+            {
+                serialController.SendSerialMessage("66666666");
+                preBack = player.isBack;
+            }
         }
 
         if (player.isCrash) //물체가 장애물에 충돌한 경우
         {
-            Debug.Log("Sending Crash");
-            serialController.SendSerialMessage("4");
+            serialController.SendSerialMessage("7777");
+
+            yield return new WaitForSeconds(0.1f);
+
+            Time.timeScale = 0;
+        }
+
+        string temp = new string(player.gear);
+
+        if (player.isEnd && temp == "P")
+        {
+            serialController.SendSerialMessage("77777777");
+
+            yield return new WaitForSeconds(0.1f);
+
+            Time.timeScale = 0;
         }
 
         yield return new WaitForSeconds(0.2f);

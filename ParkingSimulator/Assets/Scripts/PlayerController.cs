@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float rot = 45f;
     public float downForceValue;
     public float radius = 6f;
-    public float direction; //가속도 센서 roll 값 받을 변수
+    public double direction; //가속도 센서 roll 값 받을 변수
 
     public bool isLeft = false;
     public bool isRight = false;
@@ -25,12 +25,14 @@ public class PlayerController : MonoBehaviour
 
     public char[] gear; //기어
 
+    public float accelNum;
+    public float dirNum;
+
     GameObject[] sensorMesh = new GameObject[3];
     GameObject[] wheelMesh = new GameObject[4];
     Rigidbody rigid;
 
-    public float accelNum;
-    public float dirNum;
+    string startGear = "P";
 
 
     void Start()
@@ -46,6 +48,8 @@ public class PlayerController : MonoBehaviour
         {
             wheels[i].transform.position = wheelMesh[i].transform.position;
         }
+
+        gear = startGear.ToCharArray();
     }
 
     void FixedUpdate()
@@ -56,7 +60,6 @@ public class PlayerController : MonoBehaviour
         Rotate();
         AddDownForce();
         Brake();
-        GameEnd();
     }
 
     void AddDownForce() //자동차 흔들거림 방지를 위해
@@ -90,43 +93,48 @@ public class PlayerController : MonoBehaviour
                     wheels[i].motorTorque = accelNum * power;
                 }
             }
-
-        //앞바퀴 좌 우
-        //for(int i = 0; i < 2; i++)
-        //{
-        //    wheels[i].steerAngle = Input.GetAxis("Horizontal") * rot;
-        //}
     }
 
     void Rotate()
     {
-        if (direction <= -5.0f)  //왼쪽
+        if (direction <= -10.0f)  //왼쪽
         {
             dirNum -= 0.05f;
             if (dirNum <= -1.0f)
                 dirNum = -1.0f;
-            for (int i = 0; i < 2; i++)
-            {
-                wheels[i].steerAngle = dirNum * rot;
-            }
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    wheels[i].steerAngle = dirNum * rot;
+            //}
+            wheels[1].steerAngle = dirNum * rot;    //빌드하면 바퀴가 0,1이 아닌 1,3이 앞바퀴가 되어서 이렇게 수정함
+            wheels[3].steerAngle = dirNum * rot;    //빌드하면 바퀴가 0,1이 아닌 1,3이 앞바퀴가 되어서 이렇게 수정함
         }
-        else if (direction >= 5.0f)
+        else if (direction >= 10.0f)
         {
             dirNum += 0.05f;
             if (dirNum >= 1.0f)
                 dirNum = 1.0f;
-            for (int i = 0; i < 2; i++)
-            {
-                wheels[i].steerAngle = dirNum * rot;
-            }
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    wheels[i].steerAngle = dirNum * rot;
+            //}
+            wheels[1].steerAngle = dirNum * rot;
+            wheels[3].steerAngle = dirNum * rot;
         }
-        else if (direction >= -5.0f && direction <= 5.0f)
+        else if (direction >= -10.0f && direction <= 10.0f)
         {
-            dirNum = 0.0f;
-            for (int i = 0; i < 2; i++)
-            {
-                wheels[i].steerAngle = dirNum * rot;
-            }
+            if (dirNum < 0)
+                dirNum += 0.05f;
+            else if (dirNum > 0)
+                dirNum -= 0.05f;
+
+            //dirNum = 0.0f;
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    wheels[i].steerAngle = dirNum * rot;
+            //}
+            wheels[1].steerAngle = dirNum * rot;
+            wheels[3].steerAngle = dirNum * rot;
         }
     }
 
@@ -139,6 +147,10 @@ public class PlayerController : MonoBehaviour
             {
                 wheels[i].brakeTorque = 100;
             }
+            for (int i = 0; i < wheels.Length; i++)
+            {
+                wheels[i].motorTorque = accelNum * power;
+            }
         }
         else if(!isBrake)
         {
@@ -147,21 +159,6 @@ public class PlayerController : MonoBehaviour
                 wheels[i].brakeTorque = 0;
             }
         }
-
-        //if(Input.GetKeyDown(KeyCode.LeftShift))
-        //{
-        //    for(int i = 0; i < wheels.Length; i++)
-        //    {
-        //        wheels[i].brakeTorque = 100;
-        //    }
-        //}
-        //else if(Input.GetKeyUp(KeyCode.LeftShift))
-        //{
-        //    for (int i = 0; i < wheels.Length; i++)
-        //    {
-        //        wheels[i].brakeTorque = 0;
-        //    }
-        //}
     }
 
     void WheelPosAndRot()
@@ -207,16 +204,6 @@ public class PlayerController : MonoBehaviour
         if (other.tag == "ParkingEndLine")
         {
             isEnd = false;
-        }
-    }
-
-    void GameEnd()
-    {
-        string temp = new string(gear);
-
-        if (isEnd && temp == "P")
-        {
-            Debug.Log("Game End");
         }
     }
 }
